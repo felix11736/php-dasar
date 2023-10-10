@@ -1,0 +1,29 @@
+/* Styling Container */
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membagi konten menjadi tiga kolom */
+    gap: 20px; /* Jarak antara item */
+    border: 2px solid #ccc; /* Border container */
+    padding: 20px; /* Ruang dalam border */
+}
+
+/* Styling Item Produk */
+.product {
+    text-align: center;
+    border: 1px solid #ddd; /* Border item */
+    padding: 10px; /* Ruang dalam item */
+}
+
+.product img {
+    max-width: 100%; /* Gambar agar tidak melebihi lebar item */
+    height: auto; /* Gambar agar tetap proporsional */
+}
+
+.product h4 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
