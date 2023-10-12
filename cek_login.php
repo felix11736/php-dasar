@@ -16,7 +16,5 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     } else {
         echo "Login gagal. <a href='index.html'>Coba lagi</a>";
     }
-} else {
-    echo "Silakan isi formulir login.";
 }
 ?>

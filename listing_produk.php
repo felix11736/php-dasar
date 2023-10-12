@@ -42,6 +42,6 @@ session_start(); // Memulai sesi
         }
         ?>
     </div>
-    <a href="index.html">Logout</a>
+    <a href="index.php">Logout</a>
 </body>
 </html>
