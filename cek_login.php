@@ -7,7 +7,7 @@ $validPassword = "password";
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = $_POST['username'];
-    $password = $_POST['password'];
+    $password = $_POST['password'];$_ENV
 
     if ($username === $validUsername && $password === $validPassword) {
         $_SESSION['username'] = $username;
